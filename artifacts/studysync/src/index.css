@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+}
+
+:root {
+  --background: 42 43% 95%;
+  --foreground: 242 31% 19%;
+  --card: 42 42% 98%;
+  --card-foreground: 242 31% 19%;
+  --border: 39 23% 85%;
+  --input: 39 23% 85%;
+  --ring: 255 55% 55%;
+  --primary: 255 55% 48%;
+  --primary-foreground: 42 43% 98%;
+  --secondary: 168 33% 84%;
+  --muted: 38 22% 89%;
+  --muted-foreground: 241 12% 48%;
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Instrument Serif', Georgia, serif;
+  --app-font-mono: 'DM Mono', monospace;
+  --radius: 18px;
+}
+
+.dark {
+  --background: 243 24% 12%;
+  --foreground: 40 34% 92%;
+  --card: 243 22% 16%;
+  --card-foreground: 40 34% 92%;
+  --border: 243 15% 26%;
+  --input: 243 15% 26%;
+  --ring: 255 70% 72%;
+  --primary: 255 69% 72%;
+  --primary-foreground: 243 24% 12%;
+  --secondary: 165 26% 27%;
+  --muted: 243 18% 22%;
+  --muted-foreground: 40 12% 68%;
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply font-sans antialiased bg-background text-foreground; margin: 0; }
+  button, input, textarea, select { font: inherit; }
+}
+
+:root { color-scheme: light; }
+:root.dark { color-scheme: dark; }
+
+.app-noise::after {
+  content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .035; z-index: 50;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+.serif { font-family: var(--app-font-serif); }
+.mono { font-family: var(--app-font-mono); }
+.page-enter { animation: pageIn .55s cubic-bezier(.2,.8,.2,1) both; }
+.stagger > * { animation: pageIn .55s cubic-bezier(.2,.8,.2,1) both; }
+.stagger > *:nth-child(2) { animation-delay: .06s; }
+.stagger > *:nth-child(3) { animation-delay: .12s; }
+.stagger > *:nth-child(4) { animation-delay: .18s; }
+.stagger > *:nth-child(5) { animation-delay: .24s; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes breathe { 0%,100% { transform: scale(.94); opacity: .75; } 50% { transform: scale(1.06); opacity: 1; } }
+@keyframes float { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-8px) rotate(2deg); } }
+@keyframes pulseRing { 0% { transform: scale(.85); opacity: .45; } 70%,100% { transform: scale(1.35); opacity: 0; } }
+.breathe { animation: breathe 5s ease-in-out infinite; }
+.float { animation: float 7s ease-in-out infinite; }
+.pulse-ring { animation: pulseRing 2.6s ease-out infinite; }
+.surface { background: hsl(var(--card)); border: 1px solid hsl(var(--border)); box-shadow: 0 15px 35px hsl(242 25% 20% / .06); }
+.dark .surface { box-shadow: 0 15px 35px hsl(0 0% 0% / .18); }
+.lift { transition: transform .22s ease, box-shadow .22s ease; }
+.lift:hover { transform: translateY(-3px); box-shadow: 0 18px 38px hsl(242 25% 20% / .11); }
+.dark .lift:hover { box-shadow: 0 18px 38px hsl(0 0% 0% / .3); }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.grid-paper { background-image: linear-gradient(hsl(var(--border) / .5) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--border) / .5) 1px, transparent 1px); background-size: 32px 32px; }
+.app-shell { min-height: 100dvh; }
+.content-wrap { width: min(100%, 1400px); margin: 0 auto; padding: 32px clamp(18px, 4vw, 58px) 96px; }
+@media (min-width: 900px) {
+  .content-wrap { margin-left: 232px; width: calc(100% - 232px); padding-bottom: 46px; }
+}

@@ -1,0 +1,787 @@
+Create a Premium, Modern, Interactive & Animated AI Student Productivity Dashboard (StudySync)
+
+Create a stunning, premium-quality, highly animated, fully responsive Student Productivity Dashboard called StudySync.
+
+This should NOT look like a typical admin dashboard, bootstrap template, SaaS dashboard, AI-generated layout, or generic productivity app.
+
+Instead, design it like a combination of:
+
+Linear
+Notion
+Arc Browser
+Apple Human Interface
+Spotify
+Headspace
+Google Material 3
+Framer Award-winning websites
+Modern editorial magazine
+Premium AI startup
+
+The website should immediately communicate:
+
+Productivity
+Focus
+Intelligence
+Organization
+Calm
+Creativity
+Academic Success
+Personal Growth
+Modern Technology
+
+The experience should feel handcrafted rather than AI-generated.
+
+DESIGN STYLE
+
+The entire website should feel like a premium digital workspace.
+
+Use:
+
+Editorial layouts
+Bento layouts
+Asymmetrical sections
+Floating UI
+Glass morphism where appropriate
+Soft shadows
+Rounded containers
+Large spacing
+Layered cards
+Smooth transitions
+Rich illustrations
+Modern dashboard aesthetics
+
+Every section should have a unique layout.
+
+Avoid repetitive grids.
+
+Avoid dashboard templates.
+
+Avoid boring card layouts.
+
+Every section should surprise the user.
+
+COLOR PALETTE
+
+The website should support both Light Mode and Dark Mode.
+
+Light Mode
+
+White
+
+Off White
+
+Light Blue
+
+Light Lavender
+
+Light Mint
+
+Soft Peach
+
+Light Gray
+
+Sky Blue accents
+
+Emerald accents
+
+Purple accents
+
+Dark Mode
+
+Deep Navy
+
+Slate
+
+Charcoal
+
+Graphite
+
+Dark Purple
+
+Dark Blue
+
+Accent Colors
+
+Electric Blue
+
+Emerald
+
+Coral
+
+Purple
+
+Pink
+
+Teal
+
+Golden Yellow
+
+Avoid heavy gradients.
+
+Instead use:
+
+Color blocks
+Organic blobs
+Soft mesh backgrounds
+Floating geometric shapes
+Dotted patterns
+Abstract educational illustrations
+Floating books
+Sticky notes
+Graph papers
+Pencil sketches
+AI-inspired decorative elements
+TYPOGRAPHY
+
+Large editorial typography.
+
+Bold headings.
+
+Clean readable body text.
+
+Fonts:
+
+Plus Jakarta Sans
+Satoshi
+Inter
+Poppins
+
+Use beautiful typography hierarchy.
+
+ANIMATIONS
+
+The website should feel alive.
+
+Include:
+
+Smooth page transitions
+
+Scroll animations
+
+Fade-up
+
+Slide animations
+
+Parallax
+
+Floating cards
+
+Floating books
+
+Moving sticky notes
+
+Cursor interactions
+
+Hover lift
+
+Card tilt
+
+Ripple buttons
+
+Animated counters
+
+Timeline animations
+
+Notebook page flip animations
+
+Floating AI particles
+
+Animated productivity graphs
+
+Progress circles
+
+Rotating productivity rings
+
+Task completion animation
+
+Micro interactions everywhere
+
+Nothing should feel static.
+
+WEBSITE STRUCTURE
+
+The website must contain multiple individual pages instead of one long landing page.
+
+Every navigation item should redirect to its own dedicated page using routing.
+
+Do NOT keep everything on one page.
+
+Each page should feel like its own product.
+
+NAVIGATION BAR
+
+Create a premium sticky navigation bar.
+
+Include:
+
+Logo
+
+Home
+
+Task Manager
+
+Timetable
+
+Upcoming Deadlines
+
+Notes
+
+Pomodoro
+
+Light/Dark Mode Toggle
+
+Profile Avatar
+
+Settings
+
+The Upcoming Deadlines section should be represented using an animated Bell Notification icon instead of plain text.
+
+Navigation underline animations.
+
+Glass navbar on scroll.
+
+HOME PAGE (Landing Page)
+
+The Home page should NOT contain any working functionality.
+
+Instead, it should introduce every module available inside StudySync.
+
+Think of it like a premium product landing page.
+
+Large Hero Section
+
+Headline
+
+"Study Smarter. Stay Organized. Achieve More."
+
+Subheading
+
+An AI-powered academic workspace that helps students manage tasks, notes, study sessions, deadlines, and productivity from one intelligent platform.
+
+CTA Buttons
+
+Explore Dashboard
+
+Get Started
+
+Watch Demo
+
+Hero Illustration
+
+Instead of screenshots,
+
+Create an artistic composition including
+
+Laptop
+
+Floating task cards
+
+Calendar
+
+Notebook
+
+Pomodoro Timer
+
+Analytics Graphs
+
+Sticky Notes
+
+AI Brain
+
+Books
+
+Study Desk
+
+Coffee
+
+Pen
+
+Headphones
+
+Clock
+
+Floating productivity widgets
+
+Animated connecting lines between modules.
+
+HOME PAGE SECTIONS
+
+Introduce each feature beautifully.
+
+Each section should contain:
+
+Large illustration
+
+Short description
+
+Feature highlights
+
+Preview mockup
+
+Call to Action button
+
+Alternate layouts throughout the page.
+
+Sections:
+
+AI Study Planner
+
+Task Manager
+
+Timetable
+
+Upcoming Deadlines
+
+Notes
+
+Pomodoro Focus
+
+Analytics
+
+Unified Timeline
+
+Productivity Insights
+
+Smart Recommendations
+
+PAGE 1 — TASK MANAGER
+
+This page contains complete functionality.
+
+Features
+
+Create Task
+
+Edit Task
+
+Delete Task
+
+Mark Complete
+
+Priority
+
+Tags
+
+Categories
+
+Search
+
+Filters
+
+Due Date
+
+Drag and Drop Kanban
+
+Progress Tracking
+
+Beautiful colorful cards.
+
+PAGE 2 — TIMETABLE
+
+Interactive weekly timetable.
+
+Views
+
+Daily
+
+Weekly
+
+Monthly
+
+Color-coded subjects.
+
+Animated current class indicator.
+
+Upcoming lectures.
+
+Calendar navigation.
+
+PAGE 3 — UPCOMING DEADLINES
+
+Notification-based interface.
+
+Animated bell.
+
+Deadline cards.
+
+Priority colors.
+
+Countdown timers.
+
+Days Remaining.
+
+Exam reminders.
+
+Assignment reminders.
+
+Upcoming submissions.
+
+Search and filters.
+
+PAGE 4 — NOTES
+
+Modern note-taking workspace.
+
+Rich text editor.
+
+Folders.
+
+Subjects.
+
+Color labels.
+
+Pinned Notes.
+
+Recent Notes.
+
+Search.
+
+Markdown support.
+
+Notebook-inspired UI.
+
+PAGE 5 — POMODORO
+
+Premium focus page.
+
+Large circular timer.
+
+Choose Task before starting.
+
+Pause
+
+Resume
+
+Skip Break
+
+Focus Music
+
+Session History
+
+Daily Streak
+
+Weekly Focus
+
+Beautiful breathing animation while timer runs.
+
+AI STUDY PLANNER
+
+Generate personalized study schedules.
+
+Input
+
+Subjects
+
+Assignments
+
+Available Hours
+
+Difficulty
+
+Deadlines
+
+Output
+
+Personalized study plan
+
+Daily recommendations
+
+Study distribution
+
+Balanced workload
+
+Beautiful AI visualization.
+
+SMART TASK PRIORITIZATION
+
+AI automatically ranks tasks using:
+
+Deadline
+
+Difficulty
+
+Importance
+
+Estimated Time
+
+Workload
+
+Display priority visually.
+
+PRODUCTIVITY ANALYTICS
+
+Modern charts.
+
+Weekly productivity.
+
+Focus hours.
+
+Tasks completed.
+
+Subject-wise progress.
+
+Study consistency.
+
+Heatmaps.
+
+Circular charts.
+
+Animated graphs.
+
+POMODORO + TASK LINKING
+
+This is a core feature.
+
+Every Pomodoro session must be linked to a specific task or subject before the timer starts.
+
+Automatically calculate:
+
+Daily Focus Time
+
+Weekly Focus Time
+
+Time Invested Per Subject
+
+Most Studied Subject
+
+Focus Streak
+
+Completion Rate
+
+Generate beautiful visual charts showing how much time was invested in each subject throughout the week.
+
+AI should use this data to provide intelligent study recommendations.
+
+UNIFIED TIMELINE
+
+This is a signature feature.
+
+Create one beautiful chronological timeline that combines:
+
+Classes
+
+Assignments
+
+Deadlines
+
+Pomodoro Sessions
+
+Notes
+
+Study Sessions
+
+Reminders
+
+Instead of separate tabs, users should be able to scroll through their entire academic day or week from one unified timeline.
+
+Use connected timeline cards with animated progress indicators and smooth transitions.
+
+PRODUCTIVITY INSIGHTS
+
+Generate intelligent suggestions such as:
+
+"You've spent only 1 hour on DBMS this week. Consider dedicating another 2 hours before your exam."
+
+"You complete most of your tasks in the evening."
+
+"Your focus sessions are longest on Tuesdays."
+
+Display these insights using premium AI cards.
+
+WHY STUDYSYNC
+
+Instead of icon cards,
+
+Create an animated journey.
+
+Benefits
+
+Stay Organized
+
+Never Miss Deadlines
+
+AI Study Planning
+
+Better Focus
+
+Time Tracking
+
+Unified Workspace
+
+Smart Analytics
+
+Stress-Free Studying
+
+Connect everything using flowing animated lines.
+
+TESTIMONIALS
+
+Student stories.
+
+Profile images.
+
+University.
+
+Review.
+
+Subject.
+
+Rating.
+
+Handwritten sticky-note style cards.
+
+FAQ
+
+Animated accordion.
+
+Smooth open/close.
+
+NEWSLETTER
+
+Heading
+
+"Your Productivity Journey Starts Today"
+
+Illustration
+
+Books
+
+Laptop
+
+AI
+
+Study Desk
+
+Email field
+
+Subscribe button
+
+FOOTER
+
+Multi-column footer.
+
+Quick Links
+
+Resources
+
+Study Tips
+
+Contact
+
+Privacy
+
+Social Links
+
+Newsletter
+
+EXTRA FEATURES
+
+Light / Dark Mode
+
+AI Assistant
+
+Floating Help Widget
+
+Search
+
+Keyboard Shortcuts
+
+Animated Cursor
+
+Command Palette
+
+Progress Indicator
+
+Responsive Design
+
+Back To Top
+
+Sticky Navigation
+
+Profile Dropdown
+
+Notifications
+
+MICRO INTERACTIONS
+
+Every interaction should feel premium.
+
+Buttons scale slightly.
+
+Cards lift on hover.
+
+Icons rotate.
+
+Charts animate into view.
+
+Timeline draws itself while scrolling.
+
+Notifications slide in naturally.
+
+Theme switching should animate smoothly.
+
+Progress bars fill with motion.
+
+Nothing should feel static.
+
+MOBILE EXPERIENCE
+
+Design mobile-first.
+
+Do not simply stack desktop layouts.
+
+Create:
+
+Bottom Navigation
+
+Swipeable cards
+
+Horizontal carousels
+
+Responsive timelines
+
+Adaptive charts
+
+Touch-friendly interactions
+
+Optimized animations
+
+CONTENT
+
+Generate realistic academic content throughout the application.
+
+Include:
+
+Sample Tasks
+
+Weekly Timetable
+
+Assignments
+
+Deadlines
+
+Study Notes
+
+Pomodoro Sessions
+
+Analytics
+
+AI Recommendations
+
+Productivity Insights
+
+FAQs
+
+Student Testimonials
+
+Everything should feel like a real, production-ready student productivity platform.
+
+FINAL REQUIREMENTS
+
+The website should look handcrafted rather than AI-generated.
+
+Every page should have a unique identity and layout.
+
+The Home page should serve as a beautiful product showcase introducing every feature, while each navigation item should open its own dedicated functional page.
+
+The overall experience should rival award-winning productivity applications like Linear, Notion, Arc Browser, and Headspace, combining premium UI, delightful animations, intelligent AI features, and an immersive user experience that makes students genuinely excited to use StudySync every day.

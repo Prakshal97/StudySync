@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "StudySync"
+description = "A premium AI-powered student productivity workspace with an immersive home experience and functional task, timetable, deadline, notes, focus, analytics, and study planning tools."
+version = "1.0.0"
+id = "artifacts/studysync"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24630
+
+[services.development]
+run = "pnpm --filter @workspace/studysync run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/studysync", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/studysync/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24630"
+BASE_PATH = "/"
