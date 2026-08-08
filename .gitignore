@@ -10,6 +10,8 @@ out-tsc
 
 # dependencies
 node_modules
+.env
+artifacts/api-server/.env
 
 # IDEs and editors
 /.idea
